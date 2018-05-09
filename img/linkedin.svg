@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 20" width="21" height="20">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 1 0" /> </filter>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { filter: url(#flt1);fill: #999999 } 
+	</style>
+	<path id="linkedin" class="shp0" d="M0.71,19.16h4.14v-12.49h-4.14zM15.46,6.25c-1.81,0 -2.87,0.66 -4.02,2.13v-1.71h-4.12v12.49h4.14v-6.77c0,-1.43 0.72,-2.82 2.36,-2.82c1.63,0 2.63,1.4 2.63,2.79v6.8h4.14v-7.08c0,-4.92 -3.33,-5.83 -5.14,-5.83zM2.8,0.59c-1.35,0 -2.44,0.99 -2.44,2.2c0,1.21 1.09,2.2 2.44,2.2c1.34,0 2.43,-0.98 2.43,-2.2c0,-1.21 -1.09,-2.2 -2.43,-2.2z" />
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 21" width="13" height="21">
+	<defs>
+		<filter id="flt1"> <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 1 0" /> </filter>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { filter: url(#flt1);fill: #999999 } 
+	</style>
+	<path id="tumblr" class="shp0" d="M9.66,17.71c-1.7,0 -2.63,-1.33 -2.63,-2.36c0,-0.45 0,-2.95 0,-6h4.14v-3.36h-4.14c0,-2.63 0,-5 0,-5c0,0 -1.53,0 -2.89,0c0,4.34 -3.75,5.15 -3.75,5.15v3.18h2.49c0,0 0,4.66 0,7.13c0,2.48 2.27,4.53 5.04,4.53c2.77,0 4.09,-1.1 4.09,-1.1v-3.27c0,0 -0.64,1.1 -2.35,1.1z" />
+</svg>
