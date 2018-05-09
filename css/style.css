@@ -1,7 +1,82 @@
+.moobile_a:hover{
+	color: rgb(231,76,60);
+}
+.right_block_a:hover{
+	color: rgb(231,76,60);
+}
+.nav_mobile{
+	width: 100vw;
+	height: 100vw;
+	position: fixed;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 10;
+	display: none;
+}
+.mob_button{
+	width: 25px;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+    cursor: pointer;
+}
+.border{
+	width: 70px;
+	height: 70px;
+	border: 1px solid #e74c3c;
+	position: absolute;
+}
+.border_div{
+	width: 70px;
+	height: 70px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+.img{
+	position: absolute;
+	left: 26px;
+    top: 20px;
+}
+.border{
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.border:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+} 
+.mob_ul{
+	    text-align: center;
+}
+.nav_mobile_li{
+	margin-top: 40px;
+}
+.moobile_a{
+	color: white;
+}
 .banner{
 	height: 865px;
 	width: 100%;
 	background-image: url("../img/banner.svg");
+}
+.background_slider{
+	position: absolute;
+	z-index: -1;
 }
 .color {
 	height: 865px;
@@ -89,7 +164,7 @@
 	margin: 0 auto;
 	margin-top: 50px;
 }
-.button{
+.button2:hover{
 	background-color: rgb(231,76,60);
 	height: 60px;
 	width: 225px;
@@ -101,28 +176,22 @@
 	background-color: inherit;
 	height: 59px;
 	width: 225px;
-	margin-left: 26px;
 	border-right-width: 1px solid white;
 	color: white;
 	cursor: pointer;
 }
+
 .form{
 	height: 225px;
 	width: 270px;
 }
-.form img{
-	margin-left: 95px;
-}
 .form-h{
 	margin-top: 20px;
-	margin-left: 75px;
 	font-weight: bold;
 	color: rgb(106,106,106);
 	font-size: inherit;
 }
 .up{
-    margin-top: 7px;
-    margin-left: 75px;
     color: rgb(231,76,60);
     font-weight: bold;
     font-size: inherit;
@@ -146,10 +215,47 @@
     color: rgb(153,153,153);
     text-align: center;
 }
+/*test*/
+.container_c{
+	max-width: 1140px;
+	height: 320px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+.block_c{
+	width: 25%;
+	height: 320px;
+	background-color: red;
+    float: left;
+}
+article{
+	text-align: center;
+}
+
+.carousel-indicators li {
+	background-color: grey;
+}
+
 .border-line{
 	border-top: 1px solid #e6e7eb;
 	height: 410px;
 	margin-top: 100px;
+}
+.border_div{
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.border_div1{
+	background-image: url(../img/1.png);
+}
+.border_div2{
+	background-image: url(../img/2.png);
+}
+.border_div3{
+	background-image: url(../img/3.png);
+}
+.border_div4{
+	background-image: url(../img/4.png);
 }
 .down{
 	margin-top: 100px;
@@ -249,6 +355,13 @@
     text-align: right;
     margin-top: 20px;
     margin-left: 40px;
+}
+#myCarousel2 > .carousel-inner > .item{
+	background-color: transparent;
+	width: 100%;
+}
+#myCarousel2 > .carousel-inner > .carousel-control.left, .carousel-control.right{
+	background: none;
 }
 .f01{
 	margin-left: -40px;
@@ -532,7 +645,7 @@
 	cursor: pointer;
 	margin-top: 50px;
 }
-.price_button2{
+.price_button:hover{
 	background-color: #e74c3c;
 	height: 45px;
 	width: 145px;
@@ -671,7 +784,7 @@
 	justify-content: space-between;
 }    
 .left_container{
-	width: 25%;
+	width: 205px;
 	padding-top: 30px;
 	display: flex;
 	justify-content: space-between;
@@ -694,6 +807,7 @@
 	border: 1px solid white;
 	position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 .burger .divider {
 	width: 30px;
